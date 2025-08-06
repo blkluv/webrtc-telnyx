@@ -6,10 +6,9 @@ import H4 from "./typography/H4";
 import RegionSelect from "./RegionSelect";
 const Header = () => {
   return (
-    <header className="border-b bg-background z-10">
-      <div className="p-4 h-20 mx-auto flex items-center gap-2">
-        <TelnyxLogo />
-        <H4>WebRTC Demo</H4>
+    <header className="z-10 border-b bg-background">
+      <div className="flex items-center h-20 gap-2 p-4 mx-auto">
+        <H4>ATL5D Call Demo</H4>
         <SDKVersionDropdown />
         <RegionSelect />
         <PreCallDiagnosisButton />
